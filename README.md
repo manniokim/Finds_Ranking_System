@@ -39,7 +39,6 @@ const rankConfig = [
     { name: "Keeper", threshold: 1 }
 ];
 
-Next, the calculateRankThresholds function converts these percentages into concrete point goals for the current puzzle. This is the core of the dynamic system.
 
 /**
  * Converts percentage-based thresholds into specific point values for the current puzzle.
@@ -61,6 +60,8 @@ function calculateRankThresholds() {
         }
     });
 }
+
+
 
 This approach ensures that the player's journey through the ranks feels consistent and fair every single day, no matter how the puzzle changes.
 
